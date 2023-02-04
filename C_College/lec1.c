@@ -3,14 +3,9 @@
 
 int main()
 {
-
-    int a;
-    float b;
-    char c;
-    bool d;
-
-    printf("The size of int is %d\n", sizeof(a));
-    printf("The size of float is %d\n", sizeof(b));
-    printf("The size of char is %d\n", sizeof(c));
-    printf("The size of bool is %d\n", sizeof(d));
+    int a = 10, b = 20;
+    printf("\nGreater than operator: ", a > b);
+    printf("\nless than operator: ", a < b);
+    printf("\nGreater than or equal to operator: ", a >= b);
+    printf("\nless than oroperator: ", a <= b);
 }
