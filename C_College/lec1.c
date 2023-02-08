@@ -3,9 +3,8 @@
 
 int main()
 {
-    int a = 10, b = 20;
-    printf("\nGreater than operator: ", a > b);
-    printf("\nless than operator: ", a < b);
-    printf("\nGreater than or equal to operator: ", a >= b);
-    printf("\nless than oroperator: ", a <= b);
+    int a = 15, b = 25;
+    printf("Bitwise and : %d\n", a & b);
+    printf("Bitwise or : %d\n", a | b);
+    printf("Bitwise xor : %d\n", a ^ b);
 }

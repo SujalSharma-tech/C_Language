@@ -4,8 +4,8 @@
 int main()
 {
     int a;
-    printf("enter a num");
+    printf("enter age: ");
     scanf("%d", &a);
-    (a < 5) ? printf("num is less than 5") : printf("num is greater than 5");
+    (a >= 18) ? printf("You can cast vote") : printf("you cannot cast vote");
     return 0;
 }
